@@ -1,13 +1,14 @@
-
-
 .name {
   background-color: pink;
 }
 
 .linkname{
-  background-color: red;
   margin-right: 60px;
   margin-left: 60px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-colour: #eee;
 }
 
 @media (max-width: 576px) {
@@ -19,7 +20,6 @@
 
 @media (min-width: 768px) {
   .linkname {
-    background-color: blue;
     margin-right: 30px;
     margin-left: 10px;
   }
@@ -27,7 +27,6 @@
 
 @media (min-width: 1024px) {
   .linkname {
-    background-color: red;
     margin-right: 70px;
     margin-left: 10px;
   }
