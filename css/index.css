@@ -1,20 +1,92 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.img-logo-style {
+  padding: 10px;
+}
+
 .name {
-  background-color: pink;
+  font-size: 52px;
+  display: block;
 }
 
 .linkname{
-  margin-right: 60px;
-  margin-left: 60px;
+  font-size: 23px;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
-  background-colour: #eee;
+.occupation {
+  display: block;
+  font-size: 32px;
 }
 
-@media (max-width: 576px) {
+.github-profile-style {
+  background-color: purple;
+  display: block;
+}
+
+.social-logo-style {
+  margin:20px;
+  float: right;
+  font-size: 45px;
+  display: inline-block;
+}
+
+.middle-image-style{
+  padding: 10px;
+}
+
+.thumbnail-image-style {
+  width: 100%;
+}
+
+#about {
+  font-size: 32px;
+}
+ 
+#contact {
+  font-size: 32px;
+}
+
+.about-paragraph {
+  font-size: 16px;
+}
+
+.contact-paragraph {
+  font-size: 14px;
+}
+
+.featured-work{
+  font-size: 32px;
+}
+
+@media (max-width: 575px) {
   .name {
     text-align: center;
     font-size: 1.5em;
+  }
+
+  .social-logo-style {
+    margin: 5px;
+    float: right;
+    font-size: 32px;
+    display: inline-block;
+  }
+
+  .occupation {
+    display: block;
+    font-size: 1.0em;
+    text-align: center;
   }
 }
 
