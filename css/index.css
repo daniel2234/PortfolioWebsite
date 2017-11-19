@@ -70,6 +70,7 @@ a {
   font-size: 32px;
 }
 
+
 @media (max-width: 575px) {
 
   .about-paragraph {
@@ -128,6 +129,20 @@ a {
   .linkname {
     margin-right: 30px;
     margin-left: 10px;
+  }
+  
+  .name {
+    font-size: 35px;
+    display: block;
+  }
+
+  .button-website-link {
+    font-size: 10px;
+  }
+
+  .button-github-link {
+    font-size: 10px;
+    padding-right: 17px;
   }
 }
 
