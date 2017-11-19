@@ -66,20 +66,54 @@ a {
   font-size: 14px;
 }
 
-.featured-work{
+#featured-work{
   font-size: 32px;
 }
 
 @media (max-width: 575px) {
+
+  .about-paragraph {
+    font-size: 15px;
+  }
+  
+  #about {
+    font-size: 27px;
+  }
+
+  #featured-work{
+    font-size: 27px;
+  }
+  .project-title {
+    font-size: 15px;
+  }
+
+  .project-description {
+    font-size: 12px;
+  }
+
+  .button-website-link {
+    font-size: 10px;
+  }
+
+  .button-github-link {
+    font-size: 10px;
+    margin-top:10px;
+    padding-right: 17px;
+  }
+
   .name {
     text-align: center;
     font-size: 1.5em;
   }
 
+  .ul-padding {
+    padding-left: 20px;
+  }
+
   .social-logo-style {
     margin: 5px;
     float: right;
-    font-size: 32px;
+    font-size: 25px;
     display: inline-block;
   }
 
