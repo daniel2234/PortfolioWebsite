@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #f8f3ea
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -71,6 +75,16 @@ a {
 }
 
 
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
 @media (max-width: 575px) {
 
   .about-paragraph {
@@ -123,6 +137,11 @@ a {
     font-size: 1.0em;
     text-align: center;
   }
+
+  #footer {
+    height: 60px;
+    background-color: black;
+  }
 }
 
 @media (min-width: 768px) {
@@ -130,7 +149,7 @@ a {
     margin-right: 30px;
     margin-left: 10px;
   }
-  
+
   .name {
     font-size: 35px;
     display: block;
